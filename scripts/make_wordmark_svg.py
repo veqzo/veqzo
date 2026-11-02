@@ -1,5 +1,5 @@
 """
-Render "AVI" as an EXTRUDED 3D wordmark rasterized to ASCII, and emit it as an
+Render "VEQZO" as an EXTRUDED 3D wordmark rasterized to ASCII, and emit it as an
 SVG that animates on GitHub (SMIL only -- GitHub runs SVG animations in <img>,
 but never JS).
 
@@ -49,7 +49,7 @@ FONT_PATH = os.environ.get("WORDMARK_FONT", "/System/Library/Fonts/Futura.ttc")
 FONT_INDEX = int(os.environ.get("WORDMARK_FONT_INDEX", 2))   # face within a .ttc
 # three letters across the full width leaves ~30 grid columns each, which is what
 # lets the cells be big enough to read as characters rather than as dither.
-TEXT = os.environ.get("WORDMARK_TEXT", "YUUTO")
+TEXT = os.environ.get("WORDMARK_TEXT", "VEQZO")
 
 
 def resolve_font_path(path):
@@ -311,7 +311,7 @@ def emit(frames, mode, out, dur, reveal):
     for i, dot in enumerate(["#ff5f56", "#ffbd2e", "#27c93f"]):
         p.append(f'<circle cx="{PAD + i*15}" cy="{TITLEBAR_H/2}" r="4.5" fill="{dot}"/>')
     p.append(f'<text x="{canvas_w/2:.0f}" y="{TITLEBAR_H/2 + 4:.0f}" fill="{TITLE_TEXT}" '
-             f'font-size="11.5" text-anchor="middle">yuutokata@github: ~$ ./wordmark.sh --3d</text>')
+             f'font-size="11.5" text-anchor="middle">veqzo@github: ~$ ./wordmark.sh --3d</text>')
 
     def frame_g(rows, extra=""):
         out_rows = []

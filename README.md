@@ -1,6 +1,6 @@
 <div align="center">
 
-<h3><code>yuutokata@github ~ $ whoami</code></h3>
+<h3><code>veqzo@github ~ $ whoami</code></h3>
 
 <img src="./avatar-ascii.svg" width="330" alt="ASCII-art rendering of Leo Wagner's profile avatar" />
 <img src="./info-card.svg" width="530" alt="Neofetch-style info card showing Leo Wagner's name, role, and stack" />
@@ -46,8 +46,8 @@ A growing stack of Dockerized services runs behind a self-configured reverse pro
 
 <div align="center">
 
-<h3><code>yuutokata@github ~ $ ./contributions.sh</code></h3>
-<img src="./contrib-heatmap.svg" width="860" alt="Contribution heatmap and statistics dashboard for yuutokata" />
+<h3><code>veqzo@github ~ $ ./contributions.sh</code></h3>
+<img src="./contrib-heatmap.svg" width="860" alt="Contribution heatmap and statistics dashboard for veqzo" />
 
 <br><br>
 </div>
@@ -61,6 +61,6 @@ A growing stack of Dockerized services runs behind a self-configured reverse pro
 [![X](https://img.shields.io/badge/X-1a1a1a?style=for-the-badge&logo=x&logoColor=white)](https://x.com/DEIN_TWITTER_HANDLE)
 [![Join my Discord](https://img.shields.io/badge/Join%20my%20Discord-1a1a1a?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/DEIN_DISCORD_INVITE)
 [![Email](https://img.shields.io/badge/Email-1a1a1a?style=for-the-badge&logo=protonmail&logoColor=white)](mailto:wagner-leo@pm.me)
-[![yuuto.de](https://img.shields.io/badge/yuuto.de-1a1a1a?style=for-the-badge&logo=firefoxbrowser&logoColor=white)](https://yuuto.de)
+[![veqzo.dev](https://img.shields.io/badge/veqzo.dev-1a1a1a?style=for-the-badge&logo=firefoxbrowser&logoColor=white)](https://veqzo.dev)
 
 </div>
